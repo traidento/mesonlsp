@@ -1193,6 +1193,11 @@ declare_dependency:
       - Optional: true
       - Types:
         - list(dep|file|str)
+    - @extra_files:
+      - Optional: true
+      - Types:
+        - str
+        - file
     - @include_directories:
       - Optional: true
       - Types:
